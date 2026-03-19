@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+  line-height: 1.7;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+/* ── RESPONSIVE GRIDS ── */
+@media (max-width: 900px) {
+  .stats-grid       { grid-template-columns: 1fr !important; }
+  .about-grid       { grid-template-columns: 1fr !important; gap: 40px !important; }
+  .expertise-grid   { grid-template-columns: repeat(2,1fr) !important; }
+  .edu-grid         { grid-template-columns: 1fr !important; }
+  .projects-grid    { grid-template-columns: repeat(2,1fr) !important; }
+  .pub-grid         { grid-template-columns: 1fr !important; }
+  .community-grid   { grid-template-columns: 1fr !important; }
+  .contact-grid     { grid-template-columns: 1fr !important; }
+  .nav-desktop      { display: none !important; }
+  .nav-hamburger    { display: flex !important; }
+  section           { padding: 80px 6vw !important; }
+}
+
+@media (max-width: 600px) {
+  body              { font-size: 17px; }
+  h2                { font-size: 32px !important; }
+  .expertise-grid   { grid-template-columns: 1fr !important; }
+  .projects-grid    { grid-template-columns: 1fr !important; }
+  .hero-cta         { flex-direction: column !important; align-items: stretch !important; }
+  section           { padding: 64px 5vw !important; }
+}
+
+@media (max-width: 380px) {
+  body              { font-size: 16px; }
+  h2                { font-size: 28px !important; }
+  section           { padding: 56px 4vw !important; }
+}
