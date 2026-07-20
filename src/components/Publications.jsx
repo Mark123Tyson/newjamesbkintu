@@ -2,10 +2,12 @@ import { C, publications } from "../data/constants";
 import SectionLabel from "./SectionLabel";
 
 const typeColors = {
-  "Book":            { bg: "rgba(29,78,216,0.1)",  color: "#1d4ed8" },
-  "Research Article":{ bg: "rgba(13,148,136,0.1)", color: "#0d9488" },
-  "Policy Briefs":   { bg: "rgba(245,158,11,0.1)", color: "#d97706" },
-  "Thesis":          { bg: "rgba(220,38,38,0.09)", color: "#dc2626" },
+  "Book":             { bg: "rgba(29,78,216,0.1)",  color: "#1d4ed8" },
+  "Research Article": { bg: "rgba(13,148,136,0.1)", color: "#0d9488" },
+  "Policy Briefs":    { bg: "rgba(245,158,11,0.1)", color: "#d97706" },
+  "Thesis":           { bg: "rgba(220,38,38,0.09)", color: "#dc2626" },
+  "Dissertation":     { bg: "rgba(37,99,235,0.1)",  color: "#2563eb" },
+  "Conference Paper": { bg: "rgba(245,158,11,0.1)", color: "#d97706" },
 };
 
 export default function Publications() {
@@ -45,7 +47,7 @@ export default function Publications() {
         marginLeft: "auto",
         marginRight: "auto"
       }}>
-        From books on leadership to PhD-level climate research and 10+ policy briefs adopted by government and donors across East Africa.
+        From books on leadership to doctoral climate research and 10+ policy briefs adopted by government and donors across East Africa.
       </p>
 
       {/* Responsive Centered Grid */}
