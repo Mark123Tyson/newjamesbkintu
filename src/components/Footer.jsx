@@ -33,13 +33,13 @@ export default function Footer() {
   return (
     <footer style={styles.footer}>
       <p>
-        © 2025{" "}
+        © 2026{" "}
         <span style={{ color: C.tealLight }}>Dr James Kintu</span>
         {" "}· Governance · Development · Academia · Kampala, Uganda
       </p>
       <div style={styles.divider} />
-      <a
-        href="https://marktyson.netlify.app/"
+      
+      <a  href="https://marktyson.netlify.app/"
         target="_blank"
         rel="noopener noreferrer"
         style={styles.devLink}
