@@ -73,7 +73,7 @@ function HeroPhoto() {
         padding: "0 24px", maxWidth: 620, lineHeight: 1.7,
       }}>
         20+ years in public service, international development & academia.<br />
-        PhD (ABD) researching climate-food governance in Uganda's Busoga region.
+        PhD in Global Governance & Human Security (UMass Boston, 2026) — climate-food governance in Uganda's Busoga region.
       </p>
 
       <div style={{ width: 48, height: 1, background: C.teal, marginBottom: 40, position: "relative", zIndex: 1 }} />
