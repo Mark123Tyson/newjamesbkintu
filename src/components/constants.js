@@ -1,10 +1,11 @@
 // ── COLOUR PALETTE ──
+// ── COLOUR PALETTE ──
 export const C = {
-  ink:        "#0f172a",
-  inkMid:     "#334155",
-  inkLight:   "#64748b",
-  paper:      "#f8fafc",
-  cream:      "#f1f5f9",
+  ink:        "#e2e8f0",   // was dark — now light text for dark backgrounds
+  inkMid:     "#c3d0e0",   // secondary text
+  inkLight:   "#8fa3bd",   // muted text
+  paper:      "#0a2540",   // was near-white — now deep navy panel
+  cream:      "#102f52",   // was off-white — now lighter navy panel
   navy:       "#003366",
   navyMid:    "#1e3a5f",
   navyLight:  "#2563eb",
