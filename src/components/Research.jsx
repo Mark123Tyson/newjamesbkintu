@@ -6,7 +6,7 @@ export default function Research() {
     <section 
       id="research" 
       style={{ 
-        background: "#EAE4C1", 
+        background: C.paper, 
         padding: "100px 5vw", 
         display: "flex", 
         flexDirection: "column", 
