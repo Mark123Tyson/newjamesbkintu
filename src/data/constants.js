@@ -1,23 +1,25 @@
 // ── COLOUR PALETTE ──
+// ── COLOUR PALETTE ──
+// ── COLOUR PALETTE ──
 export const C = {
-  ink:        "#0f172a",
-  inkMid:     "#334155",
-  inkLight:   "#64748b",
-  paper:      "#f8fafc",
-  cream:      "#f1f5f9",
+  ink:        "#eef2f7",   // primary text
+  inkMid:     "#b8c7da",   // secondary text
+  inkLight:   "#7e93ad",   // muted text
+  paper:      "#14395f",   // cards — clearly lighter than page background
+  cream:      "#1c4370",   // inner panels/inputs — one step lighter again
   navy:       "#003366",
   navyMid:    "#1e3a5f",
-  navyLight:  "#2563eb",
+  navyLight:  "#60a5fa",   // brightened — was #2563eb, too dark on navy
   blue:       "#1d4ed8",
-  blueMid:    "#3b82f6",
+  blueMid:    "#7cb0f8",   // brightened — was #3b82f6
   blueLight:  "#bfdbfe",
-  red:        "#dc2626",
+  red:        "#f87171",   // brightened — was #dc2626, muddy on navy
   redMid:     "#ef4444",
   redLight:   "#fee2e2",
-  teal:       "#0d9488",
+  teal:       "#14b8a6",   // slightly brighter
   tealLight:  "#a3eee0",
   white:      "#ffffff",
-  gold:       "#f59e0b",
+  gold:       "#fbbf24",   // brightened — was #f59e0b
   goldLight:  "#fde68a",
 };
 
@@ -34,7 +36,7 @@ export const navLinks = [
 // ── HERO STATS ──
 export const stats = [
   { num: "20+", label: "Years in public service & governance",         icon: "🏛️", accent: C.blueMid },
-  { num: "PhD", label: "Global Governance & Human Security — UMass Boston", icon: "🎓", accent: C.gold   },
+  { num: "PhD", label: "Global Governance & Human Security — UMass Boston, 2026", icon: "🎓", accent: C.gold   },
   { num: "$10M+", label: "Donor-funded budgets managed with zero audit discrepancies", icon: "🌍", accent: C.red },
 ];
 
@@ -62,7 +64,7 @@ export const expertise = [
     icon: "🔬",
     title: "Research & Academia",
     accent: C.blueMid,
-    desc: "PhD research on Busoga climate-food governance. Curricula development, graduate supervision, and publication of policy briefs for EAC and UN forums.",
+    desc: "Doctoral research on Busoga climate-food governance (PhD, UMass Boston, 2026). Curricula development, graduate supervision, and publication of policy briefs for EAC and UN forums.",
   },
   {
     icon: "🤝",
@@ -82,10 +84,17 @@ export const expertise = [
 export const timeline = [
   {
     period: "2022 — Present",
-    role: "Associate Consultant / Lecturer & Senior Research Fellow",
-    org: "Uganda Management Institute · Teaching & Research Assistant, UMass Boston, USA",
-    desc: "Developing e-learning curricula on public policy and governance for 1,000+ students. Leading Busoga climate-food governance research. Mentoring 200+ youth and women entrepreneurs. Supporting EAC and UN policy briefs shaping regional climate strategies.",
+    role: "Associate Consultant / Lecturer",
+    org: "Uganda Management Institute · School of Civil Service, Public Administration and Governance",
+    desc: "Developing e-learning curricula on public policy and governance for 1,000+ students. Mentoring 200+ youth and women entrepreneurs. Supporting EAC and UN policy briefs shaping regional climate strategies. Co-opted Secretariat Member, UAPAM.",
     dot: C.teal,
+  },
+  {
+    period: "2022 — 2026",
+    role: "Doctoral Researcher / Teaching & Research Assistant",
+    org: "University of Massachusetts Boston, USA",
+    desc: "Completed PhD in Global Governance and Human Security (conferred May 2026). Led Busoga climate-food governance research drawing on 27 key informant interviews, four focus groups, and 64 policy documents. Recipient of the 2026 Ubuntu Recognition Award and Ubuntu African Scholars Student Research Award.",
+    dot: C.blueMid,
   },
   {
     period: "2016 — 2022",
@@ -133,11 +142,11 @@ export const timeline = [
 
 // ── EDUCATION ──
 export const education = [
-  { year: "Ongoing (exp. 2026)", degree: "PhD (ABD) — Global Governance & Human Security",    inst: "University of Massachusetts Boston, USA",         accent: C.navyLight, note: "Dissertation: Governing Climate Change for Sustainable Food Security in Uganda" },
-  { year: "2015",                degree: "MA — Global Governance & Human Security",             inst: "University of Massachusetts Boston, USA",         accent: C.blueMid   },
-  { year: "2014–2016",           degree: "MBA — Business Administration",                       inst: "ESAMI, Arusha, Tanzania",                         accent: C.gold      },
-  { year: "2002–2005",           degree: "MA — Public Administration & Management",             inst: "Makerere University, Kampala, Uganda",            accent: C.teal      },
-  { year: "1996–1999",           degree: "BA — Social Sciences (Political Science & Social Administration)", inst: "Makerere University, Kampala, Uganda", accent: C.red  },
+  { year: "2020–2026", degree: "PhD — Global Governance & Human Security",    inst: "University of Massachusetts Boston, USA",         accent: C.navyLight, note: "Dissertation: The Governance of Intensive Sugarcane-Growing and Climate Change for Sustainable Food Security in the Busoga Region of Eastern Uganda" },
+  { year: "2024",      degree: "Post-Master's Credential — Global Governance & Human Security", inst: "University of Massachusetts Boston, USA", accent: C.blueMid, note: "Earned en route to the PhD" },
+  { year: "2014–2016", degree: "MBA — Business Administration",                       inst: "ESAMI, Arusha, Tanzania",                         accent: C.gold      },
+  { year: "2002–2005", degree: "MA — Public Administration & Management",             inst: "Makerere University, Kampala, Uganda",            accent: C.teal      },
+  { year: "1996–1999", degree: "BA — Social Sciences (Political Science & Social Administration)", inst: "Makerere University, Kampala, Uganda", accent: C.red  },
 ];
 
 // ── CERTIFICATIONS ──
@@ -176,7 +185,7 @@ export const research = [
     title: "Intersection of Climate & Food Security",
     icon: "🔗",
     accent: C.gold,
-    body: "Initiated by PhD research in Busoga — examines food insecurity factors including policy gaps, market inefficiencies, and gender disparities alongside climate variability. Develops scalable models incorporating climate-smart agriculture, gender equality, and community governance for sustainable food systems across East Africa.",
+    body: "Grounded in completed doctoral research in Busoga — examines food insecurity factors including policy gaps, market inefficiencies, and gender disparities alongside climate variability. Develops scalable models incorporating climate-smart agriculture, gender equality, and community governance for sustainable food systems across East Africa.",
   },
   {
     title: "Policy Implementation & Monitoring",
@@ -234,12 +243,12 @@ export const projects = [
   },
   {
     title: "Busoga Climate-Food Governance",
-    tag: "PhD Research · 2022–Present",
+    tag: "PhD Research · 2022–2026 · Completed",
     accent: C.teal,
     points: [
+      "PhD conferred May 2026 — dissertation on sugarcane-growing, climate change, and food security governance",
       "Capability-based framework for climate-resilient agriculture",
-      "200+ entrepreneurs mentored; 10% yield boost",
-      "Early warning systems for 5,000+ households",
+      "27 key informant interviews, four focus groups, and 64 policy documents analyzed",
       "Presented at EAC and UN forums shaping regional dialogue",
     ],
   },
@@ -247,6 +256,20 @@ export const projects = [
 
 // ── PUBLICATIONS ──
 export const publications = [
+  {
+    year: "2026",
+    title: "The Governance of Intensive Sugarcane-Growing and Climate Change for Sustainable Food Security in the Busoga Region of Eastern Uganda",
+    publisher: "PhD Dissertation — University of Massachusetts Boston · Global Governance & Human Security",
+    type: "Dissertation",
+    accent: C.navyLight,
+  },
+  {
+    year: "2026",
+    title: "From Policy Ambition to Household Reality",
+    publisher: "Conference Paper — AAPAM Roundtable",
+    type: "Conference Paper",
+    accent: C.gold,
+  },
   {
     year: "2025",
     title: "Upwards Management: Leadership in Public Service and its Influence on the Private Sector",
@@ -294,7 +317,7 @@ export const publications = [
 // ── AFFILIATIONS ──
 export const affiliations = [
   { name: "Africa Association of Public Administration & Management (AAPAM)", role: "Member" },
-  { name: "Uganda Association of Public Administration & Management (UAPAM)",  role: "Member" },
+  { name: "Uganda Association of Public Administration & Management (UAPAM)",  role: "Co-opted Secretariat Member" },
   { name: "East African Community (EAC)",  role: "Former Chair, Governance Committee (2013)" },
 ];
 
@@ -306,10 +329,10 @@ export const community = [
   { title: "Conflict Resolution & Peacebuilding",     dot: C.red,       desc: "Certified mediator with a passion for integrating conflict-resolution frameworks at local, national, regional, and international levels." },
 ];
 
+
 // ── CONTACTS ──
 export const contacts = [
   { icon: "✉️", type: "Email",    val: "jamesbkintu@gmail.com",                    sub: null,                              bg: C.navy    },
   { icon: "💼", type: "LinkedIn", val: "james-kintu-b46960aa",                     sub: "linkedin.com/in/james-kintu-b46960aa", bg: C.navyLight },
-  { icon: "📱", type: "Phone",    val: "+256 772 611 055",                          sub: null,                              bg: C.red     },
   { icon: "📮", type: "Address",  val: "P.O. Box 554, Mukono",                      sub: "Kampala, Uganda",                 bg: C.teal    },
 ];
