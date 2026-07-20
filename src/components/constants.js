@@ -1,25 +1,23 @@
 // ── COLOUR PALETTE ──
-// ── COLOUR PALETTE ──
-// ── COLOUR PALETTE ──
 export const C = {
-  ink:        "#eef2f7",   // primary text
-  inkMid:     "#b8c7da",   // secondary text
-  inkLight:   "#7e93ad",   // muted text
-  paper:      "#14395f",   // cards — clearly lighter than page background
-  cream:      "#1c4370",   // inner panels/inputs — one step lighter again
+  ink:        "#0f172a",
+  inkMid:     "#334155",
+  inkLight:   "#64748b",
+  paper:      "#f8fafc",
+  cream:      "#f1f5f9",
   navy:       "#003366",
   navyMid:    "#1e3a5f",
-  navyLight:  "#60a5fa",   // brightened — was #2563eb, too dark on navy
+  navyLight:  "#2563eb",
   blue:       "#1d4ed8",
-  blueMid:    "#7cb0f8",   // brightened — was #3b82f6
+  blueMid:    "#3b82f6",
   blueLight:  "#bfdbfe",
-  red:        "#f87171",   // brightened — was #dc2626, muddy on navy
+  red:        "#dc2626",
   redMid:     "#ef4444",
   redLight:   "#fee2e2",
-  teal:       "#14b8a6",   // slightly brighter
+  teal:       "#0d9488",
   tealLight:  "#a3eee0",
   white:      "#ffffff",
-  gold:       "#fbbf24",   // brightened — was #f59e0b
+  gold:       "#f59e0b",
   goldLight:  "#fde68a",
 };
 
