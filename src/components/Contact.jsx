@@ -4,7 +4,7 @@ import SectionLabel from "./SectionLabel";
 export default function Contact() {
   return (
     <section id="contact" style={{ 
-      background: "#EAE4C1", 
+      background: "#0a2f57", 
       padding: "100px 5vw",
       display: "flex",
       flexDirection: "column",
@@ -46,8 +46,8 @@ export default function Contact() {
         }}>
           {contacts.map((c, i) => (
             <div key={i} style={{ 
-              background: "rgba(13,148,136,0.03)",
-              border: `1px solid rgba(13,148,136,0.15)`, 
+              background: "rgba(163,238,224,0.04)",
+              border: `1px solid rgba(163,238,224,0.15)`, 
               borderRadius: 6, 
               padding: 28, 
               display: "flex", 
@@ -91,7 +91,7 @@ export default function Contact() {
         {/* Contact form - Centered and polished */}
         <div style={{ 
           background: C.paper, 
-          border: `1px solid rgba(13,148,136,0.2)`, 
+          border: `1px solid rgba(163,238,224,0.2)`, 
           borderRadius: 8, 
           padding: "48px 40px",
           maxWidth: "700px",
@@ -101,7 +101,7 @@ export default function Contact() {
           <h3 style={{ 
             fontFamily: "Playfair Display, serif", 
             fontSize: 22, 
-            color: C.navy, 
+            color: C.tealLight, 
             marginBottom: 32 
           }}>
             Send a Message
@@ -121,7 +121,7 @@ export default function Contact() {
                   padding: "14px 18px", 
                   borderRadius: 4, 
                   fontSize: 15,
-                  border: `1px solid rgba(13,148,136,0.2)`,
+                  border: `1px solid rgba(163,238,224,0.2)`,
                   background: C.cream, 
                   color: C.ink, 
                   outline: "none",
@@ -129,7 +129,7 @@ export default function Contact() {
                   transition: "border-color 0.2s"
                 }} 
                 onFocus={e => e.target.style.borderColor = C.teal}
-                onBlur={e => e.target.style.borderColor = "rgba(13,148,136,0.2)"}
+                onBlur={e => e.target.style.borderColor = "rgba(163,238,224,0.2)"}
                 />
               ))}
             </div>
@@ -138,7 +138,7 @@ export default function Contact() {
               padding: "14px 18px", 
               borderRadius: 4, 
               fontSize: 15,
-              border: `1px solid rgba(13,148,136,0.2)`,
+              border: `1px solid rgba(163,238,224,0.2)`,
               background: C.cream, 
               color: C.ink, 
               outline: "none",
@@ -147,7 +147,7 @@ export default function Contact() {
               transition: "border-color 0.2s"
             }} 
             onFocus={e => e.target.style.borderColor = C.teal}
-            onBlur={e => e.target.style.borderColor = "rgba(13,148,136,0.2)"}
+            onBlur={e => e.target.style.borderColor = "rgba(163,238,224,0.2)"}
             />
             
             <button type="submit" style={{
@@ -171,7 +171,7 @@ export default function Contact() {
                 e.currentTarget.style.transform = "translateY(-2px)";
               }}
               onMouseLeave={e => {
-                e.currentTarget.style.background = C.teal;
+                e.currentTarget.style.background = "#0d9488";
                 e.currentTarget.style.transform = "translateY(0)";
               }}
             >
