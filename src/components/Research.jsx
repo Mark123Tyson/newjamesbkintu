@@ -102,7 +102,7 @@ export default function Research() {
           color: C.teal, 
           marginBottom: 12 
         }}>
-          Current PhD Research
+          Doctoral Research
         </div>
         
         <p style={{ 
@@ -124,7 +124,7 @@ export default function Research() {
           textAlign: "center",
           margin: 0
         }}>
-          University of Massachusetts Boston · PhD (ABD) · Expected 2026 · Fueled by tackling the paradox of food insecurity in a region with fertile soils and a supportive environment.
+          University of Massachusetts Boston · PhD conferred May 2026 · Fueled by tackling the paradox of food insecurity in a region with fertile soils and a supportive environment.
         </p>
       </div>
     </section>
