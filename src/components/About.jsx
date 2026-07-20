@@ -44,6 +44,7 @@ export default function About() {
               <blockquote style={{
                 fontFamily: "Playfair Display, serif",
                 fontSize: 21, fontStyle: "italic", color: C.navyMid,
+              
                 borderLeft: `3px solid ${C.teal}`, 
                 borderRight: `3px solid ${C.teal}`,
                 padding: "0 24px",
