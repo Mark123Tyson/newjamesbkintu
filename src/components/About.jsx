@@ -11,7 +11,7 @@ const paragraphs = [
 export default function About() {
   return (
     <section id="about" style={{ 
-      background: "#EAE4C1", 
+      background: C.paper, 
       padding: "100px 5vw", 
       display: "flex", 
       flexDirection: "column", 
