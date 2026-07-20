@@ -88,7 +88,6 @@ export default function About() {
               ["Based in",    "Kampala, Uganda"],
               ["Institution", "Uganda Management Institute"],
               ["University",  "UMass Boston (PhD, 2026)"],
-              ["Phone",       "+256 772 611 055"],
               ["Email",       "jamesbkintu@gmail.com"],
               ["Languages",   "English, Luganda"],
             ].map(([label, val]) => (
