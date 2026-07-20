@@ -1,17 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
-
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
-
 body {
   font-family: 'Inter', system-ui, sans-serif;
-  background: #f8fafc;
-  color: #0f172a;
+  background: #0a2540;
+  color: #e2e8f0;
   line-height: 1.7;
   font-size: 16px;
   overflow-x: hidden;
 }
-
 /* ── RESPONSIVE GRIDS ── */
 @media (max-width: 900px) {
   .stats-grid       { grid-template-columns: 1fr !important; }
@@ -26,7 +23,6 @@ body {
   .nav-hamburger    { display: flex !important; }
   section           { padding: 80px 6vw !important; }
 }
-
 @media (max-width: 600px) {
   body              { font-size: 17px; }
   h2                { font-size: 32px !important; }
@@ -35,7 +31,6 @@ body {
   .hero-cta         { flex-direction: column !important; align-items: stretch !important; }
   section           { padding: 64px 5vw !important; }
 }
-
 @media (max-width: 380px) {
   body              { font-size: 16px; }
   h2                { font-size: 28px !important; }
