@@ -328,10 +328,10 @@ export const community = [
   { title: "Conflict Resolution & Peacebuilding",     dot: C.red,       desc: "Certified mediator with a passion for integrating conflict-resolution frameworks at local, national, regional, and international levels." },
 ];
 
+
 // ── CONTACTS ──
 export const contacts = [
   { icon: "✉️", type: "Email",    val: "jamesbkintu@gmail.com",                    sub: null,                              bg: C.navy    },
   { icon: "💼", type: "LinkedIn", val: "james-kintu-b46960aa",                     sub: "linkedin.com/in/james-kintu-b46960aa", bg: C.navyLight },
-  { icon: "📱", type: "Phone",    val: "+256 772 611 055",                          sub: null,                              bg: C.red     },
   { icon: "📮", type: "Address",  val: "P.O. Box 554, Mukono",                      sub: "Kampala, Uganda",                 bg: C.teal    },
 ];
