@@ -2,10 +2,10 @@ import { C, education, certifications, training, affiliations } from "../data/co
 import SectionLabel from "./SectionLabel";
 
 const paragraphs = [
-  "James Kintu is an experienced leader based in Kampala, Uganda, with over 20 years of transformative experience in public service, governance, international development, and academia. His career is dedicated to promoting Uganda's nation-building through inclusive, evidence-based solutions, focusing on climate change governance and gender-inclusive food security.",
-  "He has held influential roles across the Ugandan government, UN-funded programs, World Bank and AfDB consultancies, and academic positions — leading multi-million-dollar reforms in health equity, youth empowerment, and sustainable development.",
+  "Dr James Kintu is an experienced leader based in Kampala, Uganda, with over 20 years of transformative experience in public service, governance, international development, and academia. He holds a PhD in Global Governance and Human Security from the University of Massachusetts Boston (conferred May 2026), and his career is dedicated to promoting Uganda's nation-building through inclusive, evidence-based solutions, focusing on climate change governance and gender-inclusive food security.",
+  "He has held influential roles across the Ugandan government, UN-funded programs, World Bank and AfDB consultancies, and academic positions — leading multi-million-dollar reforms in health equity, youth empowerment, and sustainable development. In 2026, he received the Ubuntu Recognition Award and the Ubuntu African Scholars Student Research Award from UMass Boston's Africa Scholars Forum.",
   "Rooted in Amartya Sen's Capability Approach, his work combines global best practices with local realities to foster stakeholder collaboration and measurable outcomes. He co-founded Bukanga United for Development Action to mentor remote students in Luuka — especially girls — and has served as Youth Secretary and Fathers' Union Chair in Mukono's Kiwanga parishes.",
-  "As of 2025, he is available for high-impact contract-based roles in public administration, development, consultancy, or academia — with a passion for serving humanity worldwide.",
+  "As of 2026, he is available for high-impact contract-based roles in public administration, development, consultancy, or academia — with a passion for serving humanity worldwide.",
 ];
 
 export default function About() {
@@ -87,7 +87,7 @@ export default function About() {
               ["Nationality", "Ugandan"],
               ["Based in",    "Kampala, Uganda"],
               ["Institution", "Uganda Management Institute"],
-              ["University",  "UMass Boston (PhD, ABD)"],
+              ["University",  "UMass Boston (PhD, 2026)"],
               ["Phone",       "+256 772 611 055"],
               ["Email",       "jamesbkintu@gmail.com"],
               ["Languages",   "English, Luganda"],
